@@ -1,0 +1,14 @@
+{
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
+}
