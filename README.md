@@ -8,6 +8,7 @@ Notify LINE bot of google calendar changes.
   - [Cron](https://developers.cloudflare.com/workers/configuration/cron-triggers/)
 - [Google Calendar API](https://developers.google.com/calendar/api/guides/overview?hl=ja)
 - [LINE Messaging API](https://developers.line.biz/ja/docs/messaging-api/)
+- [Hono](https://hono.dev/)
 - [Tempo](https://github.com/formkit/tempo)
 
 ## Getting Started
