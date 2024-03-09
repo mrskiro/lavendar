@@ -7,8 +7,8 @@
 		"dev": "wrangler dev",
 		"dev:cron": "wrangler dev --test-scheduled",
 		"start": "wrangler dev",
-		"migration:local": "wrangler d1 execute lavendar-db --local --file=./schema.sql",
-		"migration:deploy": "wrangler d1 execute lavendar-db --file=./schema.sql",
+		"migration:local": "wrangler d1 execute your-db --local --file=./schema.sql",
+		"migration:deploy": "wrangler d1 execute your-db --file=./schema.sql",
 		"lint": "biome check .",
 		"lint:fix": "biome check --apply-unsafe ."
 	},
