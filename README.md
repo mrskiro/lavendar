@@ -1,5 +1,7 @@
 # Lavendar
 
+![Lavendar illustration](lavendar.png)
+
 Notify LINE bot of google calendar changes.
 
 - Cloudflare
