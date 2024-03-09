@@ -1,0 +1,11 @@
+name = "your-project-name"
+main = "src/index.ts"
+compatibility_date = "2024-03-04"
+
+[triggers]
+crons = [ "0 0 * * *" , "1 0 * * *" ]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "your-db"
+database_id = "<your-db-id>"

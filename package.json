@@ -5,11 +5,19 @@
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
-		"start": "wrangler dev"
+		"dev:cron": "wrangler dev --test-scheduled",
+		"start": "wrangler dev",
+		"migration:local": "wrangler d1 execute lavendar-db --local --file=./schema.sql",
+		"migration:deploy": "wrangler d1 execute lavendar-db --file=./schema.sql"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20240222.0",
-		"typescript": "^5.0.4",
-		"wrangler": "^3.0.0"
+		"@cloudflare/workers-types": "4.20240222.0",
+		"typescript": "5.0.4",
+		"wrangler": "3.0.0"
+	},
+	"dependencies": {
+		"@formkit/tempo": "0.0.15",
+		"cloudflare-workers-and-google-oauth": "2.0.0",
+		"hono": "4.0.10"
 	}
 }
