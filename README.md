@@ -12,6 +12,7 @@ Notify LINE bot of google calendar changes.
 - [LINE Messaging API](https://developers.line.biz/ja/docs/messaging-api/)
 - [Hono](https://hono.dev/)
 - [Tempo](https://github.com/formkit/tempo)
+- [Biome](https://biomejs.dev/ja/)
 
 ## Getting Started
 
@@ -61,4 +62,5 @@ curl -X DELETE \
 ### TODO
 
 - [ ] testing
-- [ ] linter & formatter
+- [x] linter & formatter
+- [ ] CICD
