@@ -156,8 +156,8 @@ export default {
 	) => {
 		switch (event.cron) {
 			// check expiration channel
-			// 毎日0時に実行
-			case "0 0 * * *": {
+			// 毎日9時に実行
+			case "0 9 * * *": {
 				const calendarClient = await CalendarClient.init(
 					env.GOOGLE_CREDENTIALS,
 				);
