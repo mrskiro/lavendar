@@ -63,8 +63,7 @@ export const createNotificationChannel = async (
 ): Promise<void> => {
 	await db
 		.prepare(
-			`INSERT INTO notification_channels (id,calendar_id,resourceId,expiration)
-	VALUES (?,?,?,?);`,
+			"INSERT INTO notification_channels (id, calendar_id, resourceId, expiration) VALUES (?, ?, ?, ?);",
 		)
 		.bind(data.id, data.calendarId, data.resourceId, data.expiration)
 		.all();
