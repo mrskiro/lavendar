@@ -194,7 +194,9 @@ export default {
 						console.log(
 							`delete channel: ${result.id}, and create channel: ${id}`,
 						);
-					} catch (error) {}
+					} catch (error) {
+						console.error(error);
+					}
 				}
 				break;
 			}

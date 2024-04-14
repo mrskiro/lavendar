@@ -95,6 +95,10 @@ export class CalendarClient {
 			},
 		);
 
+		if (!res.ok) {
+			throw new Error("Failed to create notification channel");
+		}
+
 		const { resourceId, expiration } = await res.json<{
 			resourceId: string;
 			expiration: number;
